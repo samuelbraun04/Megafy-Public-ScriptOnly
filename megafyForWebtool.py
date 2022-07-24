@@ -1,5 +1,5 @@
-# THIS FILE IS A WORK IN PROGRESS. IT'LL BE USED WITHIN THE DJANGO PROJECT ONCE WE'RE FINISHED DEVELOPPING THE FRONT END.
-# CURRENTLY, THIS FILE IS NOT FUNCTIONAL. USE megafyUserInteractive.py TO USE MEGAFY (FOR NOW)
+# THIS FILE IS A WORK IN PROGRESS. IT'LL BE USED WITHIN THE DJANGO PROJECT (THE WEBTOOL) – ONCE WE'RE FINISHED DEVELOPPING THE FRONT END.
+# CURRENTLY, THIS FILE IS NOT FUNCTIONAL. USE megafyUserInteractive.py TO USE MEGAFY (FOR NOW).
 
 from librosa import load
 from moviepy.editor import AudioFileClip
@@ -7,19 +7,19 @@ from os import chdir, walk, path
 from scipy.io.wavfile import write
 import dawdreamer as daw
 
-#MAIN PATHS
-INPUT_FOLDER = r'C:\Users\samlb\Documents\Megafy\Input Folder'
-OUTPUT_FOLDER = r'C:\Users\samlb\Documents\Megafy\Output Folder'
+#MAIN PATHS (replace with your paths)
+INPUT_FOLDER = r'C:\Users\samlb\Documents\MEGAFY\Input Folder'
+OUTPUT_FOLDER = r'C:\Users\samlb\Documents\MEGAFY\Output Folder'
 
 #PRESETS
-BASS_BOOST_PRESETS = r'C:\Users\samlb\Documents\Megafy\Presets\BarkOfDog2'
-SOFT_CLIPPER_PRESETS = r'C:\Users\samlb\Documents\Megafy\Presets\Initial Clipper'
-REVERB_PRESETS = r'C:\Users\samlb\Documents\Megafy\Presets\MConvolutionEZ'
+BASS_BOOST_PRESETS = r'C:\Users\samlb\Documents\MEGAFY\Presets\BarkOfDog2'
+SOFT_CLIPPER_PRESETS = r'C:\Users\samlb\Documents\MEGAFY\Presets\Initial Clipper'
+REVERB_PRESETS = r'C:\Users\samlb\Documents\MEGAFY\Presets\MConvolutionEZ'
 
 #PLUGINS
-SOFT_CLIPPER_PLUGIN = r'C:\Users\samlb\Documents\Megafy\Plugins\Initial Clipper.dll'
-BASS_BOOST_PLUGIN = r'C:\Users\samlb\Documents\Megafy\Plugins\BarkOfDog2.dll'
-REVERB_PLUGIN = r'C:\Users\samlb\Documents\Megafy\Plugins\MConvolutionEZ.dll'
+SOFT_CLIPPER_PLUGIN = r'C:\Users\samlb\Documents\MEGAFY\Plugins\Initial Clipper.dll'
+BASS_BOOST_PLUGIN = r'C:\Users\samlb\Documents\MEGAFY\Plugins\BarkOfDog2.dll'
+REVERB_PLUGIN = r'C:\Users\samlb\Documents\MEGAFY\Plugins\MConvolutionEZ.dll'
 
 #MAIN VARIABLES
 VALID_FILETYPES = ['.mp3', '.wav', '.m4a', '.aac']
