@@ -2,11 +2,9 @@
 
 ### STATUS:
 
-*Currently, megafyUserInteractive.py is the only functional version of Megafy.*
+*Currently, megafyUserInteractive.py is the only functional version of Megafy – however, it is quite inefficient at the moment.*
 
-*Megafy is currently functional but inefficient. The script is in continuous development.*
-
-*Currently co-developing a Megafy webtool (w/ [Noah Do Rego](https://github.com/NoahdoRegoUO)) to allow for simpler access to Megafy's functionality. Webtool is being made using React and Django (Python).*
+*Co-development of a Megafy webtool (w/ [Noah Do Rego](https://github.com/NoahdoRegoUO)) is underway to allow for simpler access to Megafy's functionality. The webtool is being made using React and Django (Python). NOTE: The webtool's development has come to a temporary halt due to a few miscalculations on my part, and will continue once mine and Mr. Do Rego's academic lives allow for more free-time; a Megafy webtool will one day soon come to fruition.*
 
 ### DESCRIPTION:
 
